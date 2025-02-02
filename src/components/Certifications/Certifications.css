@@ -1,0 +1,57 @@
+
+.certificados.section
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.Certifications__title{
+    letter-spacing: 0.3rem;
+}
+
+.cCarousel 
+    {
+    display: grid;
+    align-items: center;
+    flex-direction: row;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+.card
+    {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    transition: transform 0.5s;
+    max-width: 100px;
+}
+
+.card:hover{
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+    background-color: #a3096583;
+    box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.card-body{
+    padding: 10px;
+}
+.card-text{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cCarousel-item {
+    min-width: 20rem;
+    margin-right: 1.5rem;
+}
